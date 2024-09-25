@@ -79,6 +79,8 @@ Para cada tamanho de conjunto de dados e cada tipo de ordenação inicial, o exp
 
 ### 5.1. Tabela Geral
 A tabela apresenta os resultados do experimento que avalia o desempenho do algoritmo FlashSort em listas de diferentes tamanhos organizadas em três ordens distintas: crescente, decrescente e aleatória.
+![Dados](https://github.com/evertonreis1/flashsort/blob/main/dadosLATEX.png?raw=true "Imagem dos Dados em LaTeX")
+
 
 ### 5.2. Análise dos Resultados
 Os resultados indicam que o FlashSort possui uma complexidade temporal O(n) para conjuntos de dados com distribuição uniforme, o que o torna altamente eficiente para grandes volumes de dados. Observa-se que o tempo de execução cresce linearmente com o aumento do número de elementos, corroborando a análise teórica da complexidade do algoritmo.
