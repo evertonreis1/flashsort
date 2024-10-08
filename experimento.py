@@ -1,7 +1,7 @@
-import time  # Biblioteca para medir o tempo de execução
-import numpy as np  # Biblioteca para gerar listas aleatórias e manipulações numéricas
+import time  
+import numpy as np  
 
-# Função FlashSort
+
 def flash_sort(arr):
     n = len(arr)
     m = int(0.43 * n)
@@ -52,9 +52,9 @@ def flash_sort(arr):
 
     return arr, num_swaps, num_comparisons
 
-# Função para executar o experimento com diferentes disposições de listas
+
 def run_experiment(sizes):
-    repetitions = 10  # Número de repetições para calcular a média
+    repetitions = 10  
 
     for size in sizes:
         # Listas para armazenar os resultados
@@ -87,8 +87,8 @@ def run_experiment(sizes):
             print(f"Tamanho: {size}, Ordem: {order_type}, Tempo Médio: {avg_time:.6f} segundos, "
                   f"Trocas Médias: {avg_swaps}, Comparações Médias: {avg_comparisons}")
 
-# Tamanhos das listas para o experimento
+
 sizes = [1000, 10000, 100000, 1000000]
 
-# Executar o experimento com diferentes disposições de listas
+
 run_experiment(sizes)
